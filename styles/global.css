@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-boby {
+body {
     font-size: 1.6rem;
     padding: 8.8rem 8rem;
     background: var(--background-default);
@@ -31,4 +31,22 @@ h2{
 
 h1, h2, h3 {
     color: var(--text-primary);
+}
+
+h4 {
+    color: var(--text-secondary);
+    font-size: 1.6rem;
+}
+
+p {
+    color: var(--text-secondary);
+}
+
+ul {
+    padding-left: 2.4rem;
+    font-weight: 700;
+
+    li::marker{
+        color: var(--text-secondary);
+    }
 }
